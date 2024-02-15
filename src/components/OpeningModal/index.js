@@ -6,7 +6,7 @@ function OpeningModal(props) {
   return (
     <>
       <Modal {...props} size="xl">
-        <Modal.Title id="opening-header">Welcome to BlackJack!!!</Modal.Title>
+        <Modal.Title id="opening-header">Speed Limit 21!</Modal.Title>
         <Modal.Body>
           <h4>Rules</h4>
           <ul>
@@ -17,6 +17,7 @@ function OpeningModal(props) {
             <li>Dealer must hit on soft 17</li>
             <li>Face cards are worth 10</li>
             <li>Aces can be worth 1 or 11</li>
+            <li>Good Luck my fellow Degens!</li>
           </ul>
         </Modal.Body>
         <Modal.Footer>
